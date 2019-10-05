@@ -23,9 +23,9 @@ public class ContextLoaderListener implements ServletContextListener {
         //创建并生成用户数据列
         List<User> userList = new ArrayList<>(3);
         User[] users = {
-                new User(1,"gjy","123","管爸爸","user1.jpg","江苏南京", LocalDate.of(2018,6,11)),
-                new User(2,"sjw","123","孙儿子","user2.jpg","江苏南京", LocalDate.of(2018,4,4)),
-                new User(3,"dhb","123","戴儿子","user3.jpg","江苏南京", LocalDate.of(2018,8,3)),
+                new User(1,"gjy","123","管爸爸","1.jpg","江苏南京", LocalDate.of(2018,6,11)),
+                new User(2,"sjw","123","孙儿子","2.jpg","江苏南京", LocalDate.of(2018,4,4)),
+                new User(3,"dhb","123","戴儿子","3.jpg","江苏南京", LocalDate.of(2018,8,3)),
 
         };
         userList = Arrays.asList(users);
@@ -33,16 +33,16 @@ public class ContextLoaderListener implements ServletContextListener {
         //创建并生成图书数据列表
         List<Book> bookList = new ArrayList<>(10);
         Book[] books = {
-                new Book(1,"漫长婚礼","b1.jpg","111"),
-                new Book(2,"漫长婚礼","b1.jpg","111"),
-                new Book(3,"漫长婚礼","b1.jpg","111"),
-                new Book(4,"漫长婚礼","b1.jpg","111"),
-                new Book(5,"漫长婚礼","b1.jpg","111"),
-                new Book(6,"漫长婚礼","b1.jpg","111"),
-                new Book(7,"漫长婚礼","b1.jpg","111"),
-                new Book(8,"漫长婚礼","b1.jpg","111"),
-                new Book(9,"漫长婚礼","b1.jpg","111"),
-                new Book(10,"漫长婚礼","b1.jpg","111"),
+                new Book(1,"漫长婚礼","book1.jpg","111"),
+                new Book(2,"漫长婚礼","book2.jpg","111"),
+                new Book(3,"漫长婚礼","book3.jpg","111"),
+                new Book(4,"漫长婚礼","book4.jpg","111"),
+                new Book(5,"漫长婚礼","book5.jpg","111"),
+                new Book(6,"漫长婚礼","book6.jpg","111"),
+                new Book(7,"漫长婚礼","book7.jpg","111"),
+                new Book(8,"漫长婚礼","book8.jpg","111"),
+                new Book(9,"漫长婚礼","book9.jpg","111"),
+                new Book(10,"漫长婚礼","book10.jpg","111"),
         };
         bookList = Arrays.asList(books);
 

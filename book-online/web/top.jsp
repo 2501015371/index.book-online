@@ -5,7 +5,7 @@
   Time: 17:36
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page import="com.web.entity.User" %>
+<%@ page import="com.bo.entity.User" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%
     User user = (User) session.getAttribute("user");
